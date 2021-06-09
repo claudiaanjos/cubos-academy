@@ -1,7 +1,9 @@
 # Curso de Formação em Desenvolvimento de Software da Cubos Academy
 
 ### Esse repositório está relacionado com as atividades realizadas durante o curso.
+
 <br>
+
 Temos as seguintes pastas:
 
 
