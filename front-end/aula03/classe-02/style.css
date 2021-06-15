@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    background-color: gray;
+}
+
+header {
+    padding: 15px;
+    background-color: lightgrey;
+}
+
+main {
+    color: white;
+    padding: 30px;
+}
+
+main p {
+    margin-bottom: 150px;
+}
+
+img {
+    border-radius: 10px;
+    margin-right: 20px;
+    max-width: 100%;
+}
