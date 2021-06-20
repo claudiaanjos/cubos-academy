@@ -1,0 +1,65 @@
+body {
+    background-color: #E5E5E5;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card {
+    max-width: 536px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 44px 54px -30px rgba(171, 200, 250, 0.38);
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 75px 70px 50px 70px;
+
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+.card h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.card .texto-principal {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.aviso, .categoria {
+    font-size: 14px;
+    line-height: 26px;
+    color: #494949;
+}
+
+.categoria {
+    margin-top: 51px;
+}
+
+.botoes {
+    margin-top: 20px;
+    margin-bottom: 52px;
+}
+
+.btn {
+    font-size: 16px;
+    line-height: 26px;
+    color: #2E29FF;
+    text-decoration: none;
+    background: #EFF5FF;
+    border-radius: 45px;
+    padding: 9px 20px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+}
+
+.btn-site {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    background: #000000;
+    border-radius: 10px;
+    padding: 11px 32px;
+}
