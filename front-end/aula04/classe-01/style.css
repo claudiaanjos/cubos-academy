@@ -1,0 +1,62 @@
+body {
+    background-color: #E5E5E5;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 92px;
+    margin-top: 176px;
+}
+
+.card {
+    max-width: 432px;
+    height: 399px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 20px 23px 10px 23px;
+}
+
+.cookie {
+    margin-bottom: 134px;
+}
+
+.btn-fechar {
+    padding: 10px 20px 7px 400px;
+}
+
+p {
+    margin-top: 29px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.p-cookie {
+    padding: 0px 53px;
+    margin-bottom: 54px;
+}
+
+.p-alert {
+    padding: 0px 114px;
+    margin-bottom: 60px;
+}
+
+a {
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 70px;
+    color: white;
+    width: 201px;
+    height: 49px;
+    padding: 14px 63px;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.cookie a {
+    background: #ED6755;
+    box-shadow: 0px 0px 10px #ED6755;
+}
+
+.alert a {
+    background: #1C1B5E;
+    box-shadow: 0px 0px 10px #1C1B5E;
+}
