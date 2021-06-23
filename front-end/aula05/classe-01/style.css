@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #F2F2F2;
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #FFFFFF;
+    box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+    border-radius: 8px;
+    max-width: 635px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-coloridos {
+    display: flex;
+    max-width: 635px;
+}
+
+.card-branco {
+    padding: 40px;
+}
+
+.card-azul-escuro {
+    background-color: #2AB3B1;
+    padding: 40px;
+}
+
+.card-azul-claro {
+    background-color: #52b3b1;
+    padding: 40px 81px 40px 40px;
+    flex-grow: 1;
+}
+
+.card-azul-claro, .card-azul-escuro {
+    color: #FFFFFF;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.3px;
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 24px;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.225px;
+}
+
+.card-branco h3 {
+    color: hsl(71, 73%, 54%);
+}
+
+.card-azul-escuro h3, .card-azul-claro h3 {
+    margin-bottom: 18px;
+}
+
+.card-branco p {
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    color: #9AA7BE;
+    margin-top: 11px;
+}
+
+.card-azul-claro p, .card-azul-escuro p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.175px;
+}
+
+.card-azul-claro p {
+    opacity: 0.75;
+}
+
+.preco-mes {
+    display: flex;
+    align-items: center;
+}
+
+span {
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    opacity: 0.5;
+}
+
+.preco {
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: -0.4px;
+    margin-right: 11px;
+    opacity: 1;
+    margin-bottom: 4px;
+}
+
+a {
+    background-color: hsl(71, 73%, 54%);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+    border-radius: 5px;
+    width: 237px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-top: 26px;
+}

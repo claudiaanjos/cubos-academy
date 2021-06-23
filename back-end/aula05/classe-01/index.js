@@ -1,0 +1,1 @@
+const comentario = "Esse COVID é muito perigoso!";
