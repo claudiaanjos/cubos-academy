@@ -2,7 +2,7 @@
 
 # Curso de Formação em **Desenvolvimento de Software** 
 
-### Repositório de atividades realizadas durante o curso.
+### Repositório de atividades realizadas durante o curso
 
 <br>
 
