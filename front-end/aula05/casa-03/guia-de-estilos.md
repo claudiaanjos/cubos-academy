@@ -29,10 +29,6 @@
 - Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
 - Weights: 700, 900
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
-
 font-family: 'Barlow', sans-serif;
 font-family: 'Fraunces', serif;
 

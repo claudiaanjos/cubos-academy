@@ -1,0 +1,52 @@
+.section-1, .section-2 {
+    display: flex;
+    background-color: #FFFFFF;
+}
+
+section img {
+    max-width: 675px;
+}
+
+.texto {
+    padding: 158px 110px 157px 165px;
+}
+
+.texto h2 {
+    margin-bottom: 32px;
+}
+
+.texto p {
+    margin-bottom: 40px;
+}
+
+
+
+
+.section-4 {
+    padding: 160px;
+    background-color: #FFFFFF;
+}
+
+.section-4 h2 {
+    margin-bottom: 81px;
+    text-align: center;
+}
+
+.section-4 .testemunhos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testemunhos img {
+    width: 72px;
+    border-radius: 50%;
+}
+
+.section-5 {
+    display: flex;
+}
+
+.section-5 img {
+    max-width: 337.5px;
+}

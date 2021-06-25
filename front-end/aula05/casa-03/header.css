@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    min-height: 100vh; 
+    background-color: hsl(194, 86%, 57%);
+}
+
+.header-menu {
+    font-family: 'Barlow', sans-serif;
+    background-color: hsl(194, 86%, 57%); 
+    margin: 30px 40px 20px 40px; 
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+
+header span {
+    font-size: 20px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header li {
+    margin-left: 47px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.128571px;
+}
+
+header li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'Fraunces', serif;
+    letter-spacing: -0.107143px;
+    text-transform: uppercase;
+    color: #24303E;
+    background-color: #FFFFFF;
+    border-radius: 28px;
+    padding: 15px 30px;
+}
+
+.header-imagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.header-imagem h1 {
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 69px;
+    text-align: center;
+    letter-spacing: 8.75px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'Fraunces', serif;
+    margin-top: 100px;
+    position: absolute;
+}
+
+.header-imagem-seta {
+    max-width: 25px;
+    max-height: 100px;
+    margin-top: 300px;
+    position: absolute;
+}
+
+.header-imagem-laranja {
+    max-width: 1345px;
+    max-height: 650px;
+}
+
+
