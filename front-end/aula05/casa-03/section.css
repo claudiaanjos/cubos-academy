@@ -1,52 +1,151 @@
-.section-1, .section-2 {
+.padrao, .imagem-2, .imagem-com-texto .texto, .testemunhos, .galeria {
     display: flex;
-    background-color: #FFFFFF;
 }
 
-section img {
-    max-width: 675px;
+/* Section Padrão */
+
+.padrao .texto {
+    padding: 120px 110px;
+
+    font-family: 'Fraunces', serif;
+    color: #24303E;
 }
 
-.texto {
-    padding: 158px 110px 157px 165px;
+.padrao .texto h2 {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: -0.285714px;
+    text-align: left;
 }
 
-.texto h2 {
-    margin-bottom: 32px;
-}
+.padrao .texto p {
+    color: #808397;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.128571px;
 
-.texto p {
     margin-bottom: 40px;
+    margin-top: 33px;
+}
+
+.padrao .texto a {
+    color: #24303E;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.padrao img {
+    width: 49.4vw;
+    margin-bottom: -5px;
 }
 
 
+/* Section Imagem com Texto */
 
-
-.section-4 {
-    padding: 160px;
-    background-color: #FFFFFF;
+.imagem-com-texto .texto {
+    position: absolute;
+    margin-top: -300px;
 }
 
-.section-4 h2 {
+.texto-na-imagem {
+    text-align: center;
+    padding: 90px 170px 0px 170px;
+}
+
+.texto-na-imagem h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: -0.2px;
+    color: #052c3b;
+    opacity: 0.75;
+
+    margin-bottom: 27px;
+}
+
+.texto-na-imagem p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: -0.114286px;
+    color: #19536C;
+}
+
+.imagem-2 img {
+    width: 49.4vw;
+}
+
+
+/* Section Testemunhos */
+
+.testemunhos-h2 {
+    text-align: center;
+    margin-top: 160px;
     margin-bottom: 81px;
+
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #A7AAAD;
+}
+
+.testemunhos {
+    padding: 0px 100px 110px 100px;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+
     text-align: center;
 }
 
-.section-4 .testemunhos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.testemunhos p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.128571px;
+    color: #5B636D;
+
+    margin-bottom: 50px;
+}
+
+.testemunhos span {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.128571px;
+    color: #24303E;
+
+    margin-bottom: 10px;
 }
 
 .testemunhos img {
-    width: 72px;
     border-radius: 50%;
+    width: 100px;
+    margin-bottom: 50px;
 }
 
-.section-5 {
-    display: flex;
-}
 
-.section-5 img {
-    max-width: 337.5px;
+/* Section Galeria */
+
+.galeria img {
+    max-width: 24.7vw;
 }
