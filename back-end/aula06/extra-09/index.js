@@ -29,4 +29,29 @@ const pessoas = [
         idade: 30,
         profissao: 'Programador'
     }
-];
+]
+
+// const programadores = pessoas.filter(pessoa => {
+//     if (pessoa.idade > 20 && pessoa.profissao === "Programador") {
+//         return true
+//     } else {
+//         return false
+//     }
+// })
+
+
+// const programadores = pessoas.filter(pessoa => {
+//     return pessoa.idade > 20 && pessoa.profissao === "Programador"
+// })
+
+
+const programadores = pessoas.filter(pessoa => pessoa.idade > 20 && pessoa.profissao === "Programador")
+console.log(programadores)
+
+
+const jornalistas = pessoas.filter(pessoa => pessoa.idade > 30 && pessoa.profissao === "Jornalista")
+console.log(jornalistas)
+
+
+const jovens = pessoas.filter(pessoa => pessoa.idade < 29 && (pessoa.profissao === "Jornalista" || pessoa.profissao === "Programador"))
+console.log(jovens)
