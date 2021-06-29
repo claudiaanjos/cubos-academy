@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-caixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-horizontal {
+    width: 666px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 74px -20px rgba(130, 148, 173, 0.44);
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    padding: 50px;
+}
+
+.cabecalho-horizontal {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 58px;
+}
+
+h2, .cabecalho-vertical {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.cabecalho-horizontal span {
+    line-height: 19px;
+    text-decoration-line: underline;
+}
+
+.perfil-caixa-horizontal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.perfil-horizontal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(128, 128, 128, 0.212);
+    border-radius: .5rem;
+    padding: 25px 35px 5px 35px;
+    margin-right: 9px;
+}
+
+.imagem-perfil {
+    border-radius: 50%;
+    width: 70px;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 22px;
+    margin-top: 15px;
+}
+
+.icone-soma {
+    background-color: #000000;
+    padding: 5px;
+    border-radius: 50%;
+    width: 40px;
+}
+
+.card-vertical {
+    width: 451px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 74px -20px rgba(130, 148, 173, 0.44);
+    border-radius: 15px;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.cabecalho-vertical {
+    display: flex;
+    align-items: center;
+    margin-bottom: 62px;
+}
+
+.cabecalho-vertical span {
+    border: 1px solid #000000;
+    border-radius: 50%;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.perfil-caixa-vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.perfil-vertical {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    margin-bottom: 30px;
+}
+
+.texto-vertical {
+    
+    border: 1px solid blue;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 165px;
+    height: 55px;
+    background: #000000;
+    border-radius: 60px;
+}
+
+.botao a {
+    text-decoration: none;
+    line-height: 19px;
+    color: #FFFFFF;
+}

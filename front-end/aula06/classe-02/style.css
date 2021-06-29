@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #b1adad;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-caixa {
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    padding: 20px 20px 55px 0px;
+}
+
+.botao-fechar {
+    align-self: flex-end;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #212D59;
+}
+
+p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #212D59;
+    margin-bottom: 40px;
+    padding: 0px 63px;
+}
+
+span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #9097AD;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2F2D2C;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.botao a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Card grande da esquerda */
+
+.card-grande {
+    width: 519px;
+    height: 471px;
+    margin-right: 50px;
+}
+
+.card-grande h2 {
+    padding: 11px 77px 72px 97px;
+}
+
+.emojis {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.emoji-imagem img {
+    margin-bottom: 15px;
+}
+
+.botao-close-caixa {
+    display: flex;
+    justify-content: center;
+    margin: 85px 0px 55px 0px;
+}
+
+.botao-close {
+    width: 208px;
+    height: 55px;
+}
+
+
+/* Card pequeno da direita */
+
+.card-pequeno {
+    width: 402px;
+    height: 374px;
+}
+
+.card-pequeno img {
+    align-self: center;
+}
+
+.card-pequeno h2 {
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.botao-done-caixa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.botao-done {
+    width: 134px;
+    height: 55px;
+}
+
