@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #b1adad;
+    background-color: #E5E5E5;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -86,7 +86,15 @@ span {
 
 .emojis {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.emoji-imagem {
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 

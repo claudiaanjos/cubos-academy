@@ -112,13 +112,11 @@ h4 {
 .perfil-vertical {
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
     margin-bottom: 30px;
 }
 
 .texto-vertical {
-    
-    border: 1px solid blue;
+    margin-right: 100px;
 }
 
 .botao {
@@ -135,4 +133,9 @@ h4 {
     text-decoration: none;
     line-height: 19px;
     color: #FFFFFF;
+}
+
+.texto-vertical h4 {
+    margin-bottom: 0;
+    margin-bottom: 5px;
 }

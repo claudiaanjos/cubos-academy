@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(255, 106, 149, 0.1);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-caixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: #202142;
+    line-height: 24px;
+}
+
+.primeiro-card, .segundo-card {
+    box-shadow: 0px 16px 45px -15px rgba(2, 5, 132, 0.25);
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.primeiro-card {
+    width: 583px;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+.usuario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.texto {
+    margin-right: 100px;
+}
+
+.texto h2 {
+    margin-bottom: 10px;
+}
+
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.usuario img {
+    width: 84px;
+    border-radius: 50%;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 146px;
+    height: 54px;
+    background: #202142;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    line-height: 24px;
+    display: flex;
+}
+
+.botao a {
+    color: #FFFFFF;
+}
+
+.botao img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+.galeria {
+    display: flex;
+    justify-content: space-around;
+}
+
+.galeria img {
+    width: 164px;
+    border-radius: 10px;
+}
+
+.segundo-card {
+    width: 1170px;
+    display: flex;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.usuario-seguindo {
+    display: flex;
+}
+
+.usuario-seguindo > img {
+    align-self: flex-start;
+    width: 70px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+.botao-seguindo {
+    width: 171px;
+    height: 54px;
+    background: #FFFFFF;
+    border: 1px solid #A4A4CB;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-seguindo a {
+    text-decoration: none;
+}
+
+.galeria-seguindo {
+    display: flex;
+}
+
+.galeria-seguindo img {
+    width: 216px;
+    margin-left: 20px;
+}
+
+.botao-seguindo {
+    margin-top: 20px;
+    width: 171px;
+    background: #FFFFFF;
+    border: 1px solid #A4A4CB;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-seguindo a {
+    color: #202142;
+}
+
+.botao-seguindo img {
+    width: 24px;
+    margin-right: 10px;
+}
