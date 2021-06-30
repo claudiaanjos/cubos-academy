@@ -1,0 +1,42 @@
+body {
+  background: #F5F5F5;
+  font-family: 'Roboto', sans-serif;
+  padding: 100px;
+}
+
+.card {
+  background: #FFF;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 432px;
+  margin: 0 auto 134px auto;
+  padding: 35px 52px 70px 52px;
+}
+
+.btn-fechar {
+  width: 30px;
+  margin-left: auto;
+}
+
+img {
+  margin-bottom: 30px;
+}
+
+p {
+  margin-bottom: 40px;
+}
+
+.btn {
+  text-decoration: none;
+  color: #FFF;
+  padding: 14px 62px;
+  border-radius: 5px;
+}
+
+.btn-light {
+  background-color: #ED6755; 
+}
+
+.btn-dark {
+  background-color: #1C1B5E; 
+}

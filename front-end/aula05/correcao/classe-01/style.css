@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #E6EFF5;
+  font-family: 'Karla', sans-serif;
+}
+
+.container {
+  max-width: 635px;
+  box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+}
+
+.title {
+  background-color: #FFF;
+  padding: 40px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.title h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #2AB3B1;
+
+  margin-bottom: 24px;
+}
+
+.title h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #C0DF33;
+
+  margin-bottom: 11px;
+}
+
+.title p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #9AA7BE;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.row > * {
+  width: 100%;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.sign-up {
+  background-color: rgb(42, 179, 177);
+  padding: 40px;
+}
+
+.sign-up h2, .why-us h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+
+  letter-spacing: -0.225px;
+
+  color: #FFFFFF;
+
+  margin-bottom: 18px;
+}
+
+.sign-up .price {
+  width: auto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 37px;
+  letter-spacing: -0.4px;
+
+  color: #FFFFFF;
+
+  margin-right: 11px;
+}
+
+.sign-up .per-month {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+
+  letter-spacing: -0.2px;
+
+  color: #FFFFFF;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.sign-up .row {
+  margin-bottom: 4px;
+}
+
+.sign-up p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+
+  letter-spacing: -0.2px;
+
+  color: #FFFFFF;
+
+  margin-bottom: 26px;
+}
+
+.sign-up a {
+  display: flex;
+  justify-content: center;
+
+  background: #C0DF33;
+  padding: 15px 0;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+  border-radius: 5px;
+
+  text-decoration: none;
+  color: #FFF;
+}
+
+.why-us {
+  background-color: rgba(42, 179, 177, 0.8);
+  padding: 40px;
+}
+
+.why-us p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+
+  letter-spacing: -0.175px;
+
+  color: #FFFFFF;
+
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
