@@ -30,3 +30,5 @@ const carrinho = {
 }
 
 console.log(imprimirResumoDoCarrinho(carrinho))
+
+
