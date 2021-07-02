@@ -48,6 +48,10 @@ body {
     box-shadow: 0px 4px 15px rgba(204, 28, 69, 0.3);
 }
 
+.botao__sign-up {
+    margin-bottom: 55px;
+}
+
 .botao__sign-up button {
     display: flex;
     justify-content: center;
@@ -70,10 +74,6 @@ body {
     padding: 10px;
     border-radius: 2px;
     margin-left: 5px;
-}
-
-.botao__sign-up {
-    margin-bottom: 55px;
 }
 
 .card p {
