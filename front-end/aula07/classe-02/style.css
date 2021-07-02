@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #E5E5E5;
+    background-image: url("assets/background.png");
+    background-position: center;
+}
+
+
+.card {
+    background-color: #FFFFFF;
+    padding: 50px;
+    width: 739px;
+    border-radius: 10px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.card h1 {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-size: 18px;
+    line-height: 25px;  
+    margin-bottom: 30px;
+}
+
+.input {
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card input {
+    all: unset;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    flex-grow: 2;
+}
+
+.card input:focus {
+    border-color: #272727;
+}
+
+.card button {
+    all: unset;
+    box-sizing: border-box;
+    width: 119px;
+    background: #9677EF;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 12px 35px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background: rgba(150, 119, 239, 0.8);
+    box-shadow: 0px 11px 20px rgba(150, 119, 239, 0.3);
+}
+
+.card p {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #494949;
+}
+
+.card p:last-child {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    margin-right: 164px;
+    margin-top: 15px;
+}
+
+.card a {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150.5%;
+    text-decoration-line: underline;
+    color: #9677EF;
+}

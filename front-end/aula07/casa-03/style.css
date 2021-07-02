@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.card {
+    width: 610px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    padding: 64px 90px 56px 90px;
+    font-family: 'Mulish', sans-serif;
+    color: #161843;
+    margin: 50px 0px;
+}
+
+.card h1 {
+    font-family: 'Rokkitt', serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    line-height: 23px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 52px;
+}
+
+.card input {
+    all: unset;
+    box-sizing: border-box;
+    padding: 25px;
+    margin-bottom: 16px;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+
+.card input::placeholder {
+    font-size: 18px;
+    line-height: 23px;
+    color: #717A91;
+}
+
+.botao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #CAD6E4;
+    padding-bottom: 55px;
+}
+
+.botao a {
+    line-height: 20px;
+    color: #0C6787;
+    text-decoration: none;
+}
+
+.botao button {
+    all: unset;
+    box-sizing: border-box;
+    width: 157px;
+    background: #046586;
+    border-radius: 5px;
+    padding: 20px 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.botao img {
+    margin-left: 14px;
+}
+
+.card span {
+    display: block;
+}
+
+.card > span {
+    font-size: 14px;
+    line-height: 18px;
+    color: #838A9E;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.logins {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login__rede {
+    border: 1px solid #CAD6E4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px 45px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.login__rede img {
+    margin-right: 10px;
+}
+
+.card p:last-child {
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    text-align: center;
+}
