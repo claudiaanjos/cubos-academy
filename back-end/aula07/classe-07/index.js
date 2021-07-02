@@ -32,7 +32,6 @@ const usuarios = [
 ]
 
 
-let validacao = usuarios.every((item) => item.idade > 18 && item.idade < 65 && item.habilitado === true)
-validacao = validacao === true ? `todos passaram no teste` : `todos precisam estar habilitados`
+let validacao = usuarios.every((item) => item.idade > 18 && item.idade < 65 && item.habilitado === true) === true ? `Todos passaram no teste` : `Todos precisam estar habilitados`
 
 console.log(validacao)
