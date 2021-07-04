@@ -55,3 +55,26 @@ console.log(jornalistas)
 
 const jovens = pessoas.filter(pessoa => pessoa.idade < 29 && (pessoa.profissao === "Jornalista" || pessoa.profissao === "Programador"))
 console.log(jovens)
+
+
+
+
+// Outra Resolução
+
+const programadoresMaiorDe20anos = pessoas.filter(function (data) {
+    return data.profissao == 'Programador' && data.idade > 20
+});
+
+console.log(programadoresMaiorDe20anos);
+
+const jornalistasMaiorDe30anos = pessoas.filter(function (data) {
+    return data.profissao == 'Jornalista' && data.idade > 30
+});
+
+console.log(jornalistasMaiorDe30anos);
+
+const jornalistasProgramadoresJovens = pessoas.filter(function (data) {
+    return (data.profissao == 'Jornalista' || data.profissao == 'Programador') && data.idade < 30
+});
+
+console.log(jornalistasProgramadoresJovens);
