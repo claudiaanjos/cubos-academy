@@ -44,6 +44,26 @@
         descricao: '“Se você quiser ter a melhor base possível, recomendo fazer este curso. A profundidade em que os instrutores entram é incrível. Agora me sinto muito confiante em começar como um desenvolvedor profissional.”',
         foto: './assets/joao.jpg'
     }];
+
+    const descricao = document.querySelector('.review-text');
+    const nome = document.querySelector('.author__name');
+    const profissao = document.querySelector('.author__title');
+    const foto = document.querySelector('.carousel__img');
+
+    function proximaPessoa() {
+        descricao.textContent = pessoas[1].descricao;
+        nome.textContent = pessoas[1].nome;
+        profissao.textContent = pessoas[1].profissao;
+        foto.src = pessoas[1].foto;
+    }
+
+    function pessoaAnterior() {
+            descricao.textContent = pessoas[0].descricao;
+            nome.textContent = pessoas[0].nome;
+            profissao.textContent = pessoas[0].profissao;
+            foto.src = pessoas[0].foto;
+        }
+
 </script>
 
 </html>
