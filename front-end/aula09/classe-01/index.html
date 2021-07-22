@@ -45,24 +45,41 @@
         foto: './assets/joao.jpg'
     }];
 
+
     const descricao = document.querySelector('.review-text');
     const nome = document.querySelector('.author__name');
     const profissao = document.querySelector('.author__title');
     const foto = document.querySelector('.carousel__img');
 
+    let indice = 0;
+    const ultimaPosicao = pessoas.length - 1;
+
     function proximaPessoa() {
-        descricao.textContent = pessoas[1].descricao;
-        nome.textContent = pessoas[1].nome;
-        profissao.textContent = pessoas[1].profissao;
-        foto.src = pessoas[1].foto;
+        if (indice === ultimaPosicao) {
+            indice = 0
+        } else {
+            indice++;
+        }
+
+        preencherPessoa();
     }
 
     function pessoaAnterior() {
-            descricao.textContent = pessoas[0].descricao;
-            nome.textContent = pessoas[0].nome;
-            profissao.textContent = pessoas[0].profissao;
-            foto.src = pessoas[0].foto;
+        if (indice === 0) {
+            indice = ultimaPosicao;
+        } else {
+            indice--;
         }
+
+        preencherPessoa();
+    }
+
+    function preencherPessoa() {
+        foto.src = pessoas[indice].foto;
+        descricao.textContent = pessoas[indice].descricao;
+        nome.textContent = pessoas[indice].nome;
+        profissao.textContent = pessoas[indice].profissao;
+    }
 
 </script>
 

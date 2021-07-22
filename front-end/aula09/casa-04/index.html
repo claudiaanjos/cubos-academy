@@ -7,12 +7,41 @@
     <title>Contatos</title>
 
     <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 50px 0px;
+            color: blue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        ul {
+            list-style: none;
+        }
+        
+        li {
+            margin-bottom: 50px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
+
+        img {
+            width: 10%;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
 
     </style>
 </head>
 
 <body>
-    <h1>Contatos</h1>
+    <h1>Meus Contatos</h1>
 
     <ul class="contatos">
         <li>
@@ -93,12 +122,27 @@
         }];
 
         
-        
+        contatos.sort(function (a, b) {
+            return b.mensagens - a.mensagens;
+        });
 
+        const cincoContatos = contatos.slice(0,5);
+        console.log(cincoContatos);
         
-        
-        
+        const listaDeContatos = document.querySelectorAll('li');
+        console.log(listaDeContatos);
 
+        for (let i = 0; i < 5; i++) {
+            let imagem = listaDeContatos[i].querySelector('img');
+            imagem.src = cincoContatos[i].imagem;
+
+            let nome = listaDeContatos[i].querySelector('.nome');
+            nome.textContent = cincoContatos[i].nome;
+
+            let descricao = listaDeContatos[i].querySelector('.descricao');
+            descricao.textContent = cincoContatos[i].descricao;
+        }
+    
     </script>
 
 </html>
