@@ -31,6 +31,8 @@ body {
 
   padding: 0.7rem;
   border: 0;
+
+  cursor: pointer;
 }
 
 .inscrito {
