@@ -38,3 +38,20 @@ for (let aluno of alunos) {
 console.log(alunosResumido); 
 
 
+// Outras formas
+
+// Com for
+const alunosResumido = [];
+for (let { nome, idade, email, curso } of alunos) {
+    alunosResumido.push({ nome: nome, idade: idade, email: email, curso: curso });
+}
+
+// Com map
+const alunosResumido = alunos.map(resumo);
+function resumo(aluno) {
+    const { nome, idade, email, curso } = aluno;
+    return { nome, idade, email, curso };
+}
+
+// Refatorado com map
+const alunosResumido = alunos.map(({ nome, idade, email, curso }) => ({ nome, idade, email, curso }));
