@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    min-height: 100vw;
+}
+
+.header {
+    background-color: #E8BBA8;
+
+    padding: 28px;
+    margin-bottom: 60px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.header img {
+    width: 36px;
+}
+
+.nav {
+    list-style: none;
+
+    display: flex;
+}
+
+.nav li a {
+    margin-left: 60px;
+
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 35px;
+    color: #461B09;
+}
+
+.container {
+    padding: 0px 100px;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 60px;
+}
+
+p {
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 32px;
+
+    margin: 95px 0px;
+}
+
+.container img {
+    width: 400px;
+    cursor: pointer;
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+}
+
+.imagem01 {
+    position: relative;
+}
+
+.imagem02 {
+    position: relative;
+    bottom: 30px;
+    right: 30px;
+}
+
+.modal {
+	background-color: rgba(0,0,0, 0.6);
+
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+    z-index: 2;
+
+	display: none;
+	justify-content: center;
+	align-items: center;
+    
+}
+
+.modal img {
+    width: 400px;
+}
