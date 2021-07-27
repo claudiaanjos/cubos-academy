@@ -4,11 +4,15 @@ app.use(express.json());
 
 const convidados = ["Carlos", "Amanda", "Fernanda", "Juliana", "Lucas", "Roberto"];
 
-app.get("/convidados", (req, res) => {
-    //a) Consulta a lista inteira de convidados
-    res.json(convidados); 
 
-    //b) Consulta se existe um nome específico na lista de convidados
+//a) Consulta a lista inteira de convidados
+app.get("/convidados", (req, res) => {
+    res.json(convidados);
+});
+
+
+//b) Consulta se existe um nome específico na lista de convidados
+app.get("/convidados", (req, res) => {
     const nome = req.query.nome;
     for(let i = 0; i < convidados.length; i++) {
         if(nome === convidados[i]) {
@@ -18,6 +22,7 @@ app.get("/convidados", (req, res) => {
         }
     } 
 });
+
 
 //c) Adicionar um nome na lista de convidados
 app.post("/convidados", (req, res) => {
