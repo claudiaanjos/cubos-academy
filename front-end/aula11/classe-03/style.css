@@ -97,11 +97,11 @@ p {
     z-index: 2;
 
 	display: none;
-	justify-content: center;
-	align-items: center;
-    
 }
 
 .modal img {
     width: 400px;
+    margin-top: 180px;
+    position: fixed;
+    right: 500px;
 }

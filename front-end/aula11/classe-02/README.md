@@ -2,14 +2,16 @@
 
 # Exercício de classe 🏫
 
-## Input de senha
+## FAQ
 
-Seu objetivo é reproduzir o layout presente no "Exercício 1" do arquivo figma (.fig) encontrado na raiz do projeto.
+Seu objetivo é reproduzir o layout presente no "Exercício 2" do arquivo figma (.fig) encontrado na raiz do projeto.
 
 Comportamentos esperados:
-- O input de senha terá dois estados que deverão ser trocados conforme o usuário clicar no icone presente dentro do mesmo:
-  - Um ele terá dentro dele o icone "olho-fechado" e o valor do atributo **type** será **password**
-  - Outro ele terá dentro dele o icone "olho-aberto" e o valor do atributo **type** será **text**
+- O card de FAQ terá dois estados que deverão ser trocados conforme o usuário clicar no icone presente no canto inferior direito da página:
+  - Um ele estará visível
+  - Em outro não
+- Você pode trocar essa visibilidade por meio de classes ou diretamente no style
+- O icone deverá seguir o usuário conforme ele scrolle a página
 
 **Neste exercício usaremos: (CSS)**
  - position fixed

@@ -25,7 +25,7 @@ linkModal.addEventListener('click', function (event) {
 //Funções
 function abrirModal (src) {
     imagemModal.src = src;
-    modal.style.display = 'flex';
+    modal.style.display = 'block';
     linkModal.href = src;
 }
 
