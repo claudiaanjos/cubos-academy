@@ -1,30 +1,52 @@
-const express = require("express");
+const express = require('express');
+
 const app = express();
 
-let minutos = 1;
-let segundos = 7;
+let rodando = false;
+let minutos = 0;
+let segundos = 0;
+
+let setIntervalDisparado = false;
+
+function iniciarCronometro() {
+    rodando = true;
+    if (!setIntervalDisparado) {
+        setInterval(() => {
+            if (rodando) {
+                if (segundos == 59) {
+                    segundos = 0;
+                    minutos++;
+                } else {
+                    segundos++
+                }
+            }
+        }, 1000);
+        setIntervalDisparado = true;
+    }
+}
 
 app.get("/", (req, res) => {
-    minutos = String(minutos).padStart(2, "0");
-    segundos = String(segundos).padStart(2, "0");
-
-    res.send(`Tempo atual do cronômetro: ${minutos} minutos e ${segundos} segundos`)
+    res.send(`Tempo atual do cronômetro: ${minutos.toString().padStart(2, "0")} minutos e ${segundos.toString().padStart(2, "0")} segundos`);
 });
 
 app.get("/iniciar", (req, res) => {
+    iniciarCronometro();
     res.send("Cronômetro iniciado!");
-
 });
 
 app.get("/pausar", (req, res) => {
+    rodando = false;
     res.send("Cronômetro pausado!");
 });
 
 app.get("/continuar", (req, res) => {
+    rodando = true;
     res.send("Cronômetro continuando!");
 });
 
 app.get("/zerar", (req, res) => {
+    minutos = 0;
+    segundos = 0;
     res.send("Cronômetro zerado!");
 });
 

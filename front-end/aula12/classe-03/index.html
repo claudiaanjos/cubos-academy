@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 12</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <div class="musica">
+        <h1>Recomendação de Música</h1>
+        <form action="https://www.google.com/search" target="_blank">
+            <div>
+                <label for="genero">Escolha um genêro musical</label>
+                <select name="genero" id="genero" required>
+                    <option value="rock">ROCK</option>
+                    <option value="kpop" selected>KPOP</option>
+                    <option value="classica">CLÁSSICA</option>
+                </select>
+            </div>
+            <div class="inputMusica">
+                <label for="musica">Música escolhida</label>
+                <input type="text" id="musica" name="q">
+            </div>
+            <button>Recomendar</button>
+        </form>
+    </div>
+
+
+</body>
+</html>
