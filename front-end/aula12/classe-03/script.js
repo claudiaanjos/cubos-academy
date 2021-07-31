@@ -3,6 +3,7 @@ const recomendacao = document.querySelector('.inputMusica');
 const generos = document.querySelectorAll('option');
 const input = document.querySelector('#musica');
 
+
 botao.addEventListener('click', () => {
     recomendacao.style.display = 'block';
 
