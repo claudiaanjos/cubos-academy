@@ -12,18 +12,18 @@
     
     <div class="musica">
         <h1>Recomendação de Música</h1>
-        <form action="https://www.google.com/search" target="_blank">
+        <form action="https://www.youtube.com/results" target="_blank">
             <div>
                 <label for="genero">Escolha um genêro musical</label>
                 <select name="genero" id="genero" required>
-                    <option value="rock">ROCK</option>
+                    <option value="rock" selected>ROCK</option>
                     <option value="kpop">KPOP</option>
                     <option value="classica">CLÁSSICA</option>
                 </select>
             </div>
             <div class="inputMusica">
                 <label for="musica">Música escolhida</label>
-                <input type="text" id="musica" name="q">
+                <input type="text" id="musica" name="search_query">
             </div>
             <button>Recomendar</button>
         </form>

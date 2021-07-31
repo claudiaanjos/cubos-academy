@@ -1,4 +1,4 @@
-const alunos = require("../dados/colecao");
+const alunos = require('../dados/alunos');
 
 let idProximoAlunoCriado = 1;
 
@@ -27,7 +27,7 @@ function obterAlunoPeloId(req, res) {
 function adicionarAluno(req, res) {
     let novoAluno = req.body;
 
-    if (!novoAluno) {
+    if (!novoAluno) { 
         res.status(400).json({ mensagem: "Um objeto representando o aluno deve ser enviado no corpo da requisição." });
         return;
     }
@@ -93,4 +93,4 @@ function excluirAluno(req, res) {
     res.json(alunoExcluido);
 }
 
-module.exports = { obterAlunos, obterAlunoPeloId, adicionarAluno, excluirAluno };
+module.exports = {obterAlunos, obterAlunoPeloId, adicionarAluno, excluirAluno};
