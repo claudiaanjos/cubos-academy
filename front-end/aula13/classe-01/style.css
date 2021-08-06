@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    position: relative;
+}
+
+.side-menu{
+    background-color: #313131;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+
+    gap: 40px;
+    
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
+.side-menu.hidden span{
+    display: none;
+}
+
+.side-menu__button{
+    all: unset;
+    box-sizing: border-box;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+}
+
+.side-menu span{
+    color: #888888;
+    margin-left: 20px;
+}
+
+#inicio{
+    color: #FFF;
+}
+
+.last-button{
+    margin-top: auto;
+}
+
+.main {
+    flex-grow: 1;
+
+    text-align: center;
+
+    padding: 60px 0px 60px 60px;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 30px;
+}
+
+.title{
+    margin-bottom: 40px;
+}
+
+.item{
+    cursor: pointer;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 10px;
+}
+
+
+
+
+
+/* Modal */
+
+.modal{
+    background-color: rgba(15, 14, 14, 0.342);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+}
+
+.modal button{
+    all: unset;
+    box-sizing: border-box;
+    cursor: pointer;
+
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.like{
+    position: absolute;
+
+    left: 58%;
+    top: 36%;
+}
+
+.previous-arrow{
+    position: absolute;
+    right: 70%;
+
+    cursor: pointer;
+}
+
+.next-arrow{
+    position: absolute;
+    left: 70%;
+
+    cursor: pointer;
+}
+
+.modal.hidden {
+    display: none;
+}
+
+.like.hidden{
+    display: none;
+}
+
+.modal .modal-img {
+    cursor: pointer;
+}
