@@ -1,12 +1,19 @@
-function arriveInTheStore (hours, minutes=0) {
-    const openStore = new Date(2015, 1, 1, 8, 0);
-    const closeStore = new Date(2015, 1, 1, 18, 1);
-    const arriveTime = new Date (2015, 1, 1, hours, minutes);
-    if (+arriveTime >= +openStore && +arriveTime < +closeStore) {
+function taAberto (chegada) {
+    const abertura = new Date (+chegada);
+    const fechamento = new Date (+chegada);
+
+    abertura.setHours(8);
+    fechamento.setHours(18);
+
+    if (+chegada >= +abertura && +chegada <= +fechamento) {
         return true;
     } else {
         return false;
     }
 }
 
-console.log(arriveInTheStore(2));
+console.log(taAberto(new Date(2015, 1, 1, 12)));
+console.log(taAberto(new Date(2015, 1, 1, 2)));
+
+console.log(taAberto(new Date(2017, 3, 21, 8, 0, 0, 0)));
+console.log(taAberto(new Date(2018, 5, 15, 18, 0, 0, 0)));

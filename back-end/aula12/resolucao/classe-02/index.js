@@ -1,4 +1,4 @@
-const people = [
+const registros = [
     {
         "name": "Kirkland",
         "company": "ECLIPSENT",
@@ -46,8 +46,7 @@ const people = [
     }
 ];
 
-
-console.log(people.sort((a, b) => {
-    return +(new Date (a.registered)) - +(new Date(b.registered))
-}));
-
+console.log(
+    registros.sort((a, b) => {
+        return +(new Date(a.registered)) - +(new Date(b.registered))
+    }));
