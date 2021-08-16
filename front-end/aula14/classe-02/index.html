@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Criptomoedas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="cripto">Consulta de Criptomoeda</label> <br>
+            <select id="cripto">
+                <option value="none">Selecione a criptomoeda</option>
+                <option value="BTC">Bitcoin</option>
+                <option value="ETH">Ethereum</option>
+                <option value="LTC">Litecoin</option>
+                <option value="UNI">Uniswap</option>
+                <option value="SNX">Synthetix</option>
+            </select>
+        </div>
+        <p>Maior preço negociado nas últimas 24hrs: R$ <b class="valor-negociado"></b></p>
+        <p>Quantidade negociada nas últimas 24hrs: <b class="quantidade"></b></p>
+        <p>Maior preço de oferta de compra nas últimas 24hrs: R$ <b class="valor-compra"></b></p>
+    </form>
+</body>
+</html>
