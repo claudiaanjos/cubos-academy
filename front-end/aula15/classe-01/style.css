@@ -8,10 +8,43 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
     min-width: 100vw;
+    min-height: 100vh;
+}
+
+input {
+    padding: 10px;
+    width: 30%;
+    margin: 50px 0;
 }
 
 .paises {
-    margin-top: 15%;
+    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pais {
+    background-color: #c3c3c3;
+    padding: 15px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    min-width: 20%;
+    text-align: center;
+}
+
+.pais img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.pais h2 {
+    margin-bottom: 10px;
+}
+
+.escondido {
+    display: none;
 }
