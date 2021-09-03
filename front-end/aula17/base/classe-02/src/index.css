@@ -1,0 +1,20 @@
+body {
+    background: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    width: 430px;
+    height: 400px;
+}
+
+.close-button {
+    align-self: flex-end;
+}
