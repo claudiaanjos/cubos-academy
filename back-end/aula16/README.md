@@ -4,7 +4,7 @@
 
 ## Exercícios de classe 🏫
 
-1. Fazer consultas
+1 . Fazer consultas usando funções do PostgreSQL
 
 ---
 
