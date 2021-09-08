@@ -1,10 +1,10 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-# Exercícios - SELECT
+# Exercícios - SELECT e Funções do PostgreSQL
 
 ## Exercícios de classe 🏫
 
-1 . Fazer consultas usando funções do PostgreSQL
+1. Fazer consultas usando funções do PostgreSQL
 
 ---
 
