@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    background: #E5E5E5;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+
+    width: 432px;
+    height: 389px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.close {
+    align-self: flex-end;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+.cookie {
+    margin-bottom: 29px;
+}
+
+.card p {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.card button {
+    all: unset;
+    box-sizing: border-box;
+    padding: 14px 63px;
+
+    background: #ED6755;
+    border-radius: 5px;
+
+    font-size: 16px;
+    line-height: 134.19%;
+    text-align: center;
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+
+.escondido {
+    display: none;
+}
