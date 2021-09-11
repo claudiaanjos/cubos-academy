@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,700;1,400&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(71, 71, 223);
+    font-family: Mulish, sans-serif;
+}
+
+.card {
+    width: 302px;
+    height: 410px;
+    filter: drop-shadow(0px 4px 24px rgba(255, 255, 255, 0.25));
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.card img {
+    border-radius: 50%;
+    border: 10px solid rgba(179, 179, 214, 0.3);
+}
+
+.card h2 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.contato {
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.info {
+    margin-top: 50px;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.botao {
+    all: unset;
+    box-sizing: border-box;
+    width: 302px;
+    height: 62px;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #EFF5FF;
+    background: #459275;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.ativo {
+    background: #97CEB9;
+}
