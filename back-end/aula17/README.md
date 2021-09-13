@@ -1,5 +1,7 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
+# Exercícios - CRUD SQL
+
 ## Exercícios de classe 🏫
 
 1. Estruturando Banco de dados - Tabela de usuários
