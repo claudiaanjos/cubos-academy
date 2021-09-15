@@ -1,5 +1,7 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
+# Exercícios - Modelagem de Dados
+
 ## Exercícios de classe 🏫
 
 1. Modelando e criando Banco de dados
