@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+body>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.galeria{
+    padding-left: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+h1{
+    padding-left: 64px;
+    font-weight: bold;
+    font-size: 36px;
+    margin-top  : 152px;
+    margin-bottom: 52px;
+    align-self: center;
+    justify-self: center;
+}
+p{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+}
+span{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #5C5C5C;
+}
+.aberto{
+    width: 199px;
+}
+aside{
+    position: fixed;
+    height: 1024px;
+    width: 64px;
+    top: 0;
+    left: 0;
+    background: #313131;
+    padding-left: 20px;
+}
+
+button{
+    all: unset;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.lista{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    text-align: center;
+    list-style: none;
+    gap: 40px;
+}
+li span{
+    color: white;
+    margin-left: 27px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #888888;
+    
+}
+.item2 span{
+    color: white;
+}
+.item4{
+    position: fixed;
+    bottom: 20px;
+    margin-left: 0px;
+}
+
+.imagem{
+    display: flex;
+    flex-direction: column;
+}
+.imagem>div{
+    display: flex;
+    justify-content: space-between;
+}
+.curtida{
+    display: block;
+    position: absolute;
+    align-self: flex-end;
+}
+
+.modal{
+    padding-left: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.modal>a>.central{
+    width: 500px;
+}
+
+.buttonClose>img{
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    align-self: flex-end;
+}
+
+.modal .curtida{
+    position: absolute;
+    right: 220px;
+    
+}
+
+.escondido{
+    display: none;
+}
