@@ -18,4 +18,19 @@ rotas.post('/livros', livros.cadastrarLivro);
 rotas.put('/livros/:id', livros.atualizarLivro);
 rotas.delete('/livros/:id', livros.excluirLivro);
 
+//usuarios
+rotas.get('/usuarios', usuarios.listarUsuarios);
+rotas.get('/usuarios/:id', usuarios.obterUsuario);
+rotas.post('/usuarios', usuarios.cadastrarUsuario);
+rotas.put('/usuarios/:id', usuarios.atualizarUsuario);
+rotas.delete('/usuarios/:id', usuarios.excluirUsuario);
+
+
+//emprestimos
+rotas.get('/emprestimos', emprestimos.listarEmprestimos);
+rotas.get('/emprestimos/:id', emprestimos.obterEmprestimo);
+rotas.post('/emprestimos', emprestimos.cadastrarEmprestimo);
+rotas.put('/emprestimos/:id', emprestimos.atualizarEmprestimo);
+rotas.delete('/emprestimos/:id', emprestimos.excluirEmprestimo);
+
 module.exports = rotas;
