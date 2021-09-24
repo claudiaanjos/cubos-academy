@@ -1,0 +1,77 @@
+body {
+    background-color: #E5E5E5;
+}
+
+.card {
+    position: absolute;
+    width: 432px;
+    height: 389px;
+    left: 584px;
+    top: 50px;    
+    background: #FFFFFF;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 134px;
+}
+
+.card-close {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 30px;
+    top: 30px;
+    cursor: pointer;
+}
+
+.card-cookie {
+    position: absolute;
+    width: 86px;
+    height: 86px;
+    left: 170px;
+    top: 67px;
+}
+
+.card-text {
+    position: absolute;
+    width: 327px;
+    height: 48px;
+    left: 50px;
+    top: 180px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.card-btn {
+    position: absolute;
+    width: 201px;
+    height: 49px;
+    left: 120px;
+    top: 280px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 134.19%;
+    /* or 21px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-cookie {
+    background-color: #ED6755;
+}
+
+.btn-alert {
+    background-color: #1C1B5E;
+}
