@@ -1,0 +1,26 @@
+body{
+    height: 100vh;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.App>div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.App>div>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 250px;
+    height: 150px;
+    margin-bottom: -30px;
+}
