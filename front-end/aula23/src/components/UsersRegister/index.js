@@ -1,12 +1,16 @@
 import { useEffect, useState } from 'react';
+import useUsersList from '../../hooks/useUsersList';
 import './styles.css';
 
-function UsersRegister({
-  userInEditing,
-  setUserInEditing,
-  usersData,
-  setUsersData
-}) {
+function UsersRegister() {
+
+  const {
+      userInEditing,
+      setUserInEditing,
+      usersData,
+      setUsersData
+  } = useUsersList();
+
   const [name, setName] = useState('');
   const [age, setAge] = useState('');
 

@@ -1,9 +1,12 @@
 import { useEffect, useState } from "react";
+import useUsersList from "../../hooks/useUsersList";
 import './styles.css';
 
 const defaultReportsState = { usersCount: 0, ageMedia: 0 };
 
-function UsersReport({ usersData }) {
+function UsersReport() {
+
+  const { usersData } = useUsersList();
 
   const [reports, setReports] = useState(defaultReportsState);
 
