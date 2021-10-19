@@ -1,9 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-function Home() {
+function Services() {
     return (
         <>
-            <h2>Home</h2>
+            <div className="titulo">
+                <h2>Services</h2>
+                <Link to="/">Voltar ao início</Link>
+            </div>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo cumque
                 veritatis asperiores, laboriosam iure distinctio corrupti ad veniam?
@@ -38,4 +42,4 @@ function Home() {
     );
 }
 
-export default Home;
+export default Services;

@@ -1,9 +1,11 @@
 import React from "react";
 
-function Services() {
+function Home() {
     return (
         <>
-            <h2>Services</h2>
+            <div className="titulo">
+                <h2>Home</h2>
+            </div>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo cumque
                 veritatis asperiores, laboriosam iure distinctio corrupti ad veniam?
@@ -38,4 +40,4 @@ function Services() {
     );
 }
 
-export default Services;
+export default Home;

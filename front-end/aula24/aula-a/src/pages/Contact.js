@@ -1,9 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Contact() {
     return (
         <>
-            <h2>Contact</h2>
+            <div className="titulo">
+                <h2>Contact</h2>
+                <Link to="/">Voltar ao início</Link>
+            </div>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo cumque
                 veritatis asperiores, laboriosam iure distinctio corrupti ad veniam?
