@@ -4,7 +4,7 @@ const knex = require('knex')({
         host: 'localhost',
         user: 'postgres',
         password: 'postgres',
-        database: 'market_cubos'
+        database: 'newsletter'
     }
 });
 
